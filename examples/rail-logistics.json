@@ -1,0 +1,40 @@
+{
+  "module": "F21",
+  "stations": [
+    { "sequence": 1, "role": "queue", "label": "A股道", "serves": [2, 3, 4], "usableTrackTiles": 38 },
+    {
+      "sequence": 2, "role": "input", "label": "铁矿", "usableTrackTiles": 38,
+      "train": {
+        "locomotives": 1, "requiredTrackTiles": 36,
+        "wagons": [
+          { "type": "cargo", "capacity": 40, "materials": { "iron-ore": { "slots": 40, "stackSize": 50 } } },
+          { "type": "cargo", "capacity": 40, "materials": { "iron-ore": { "slots": 40, "stackSize": 50 } } },
+          { "type": "cargo", "capacity": 40, "materials": { "iron-ore": { "slots": 40, "stackSize": 50 } } },
+          { "type": "cargo", "capacity": 40, "materials": { "iron-ore": { "slots": 40, "stackSize": 50 } } }
+        ]
+      },
+      "buffers": { "iron-ore": { "capacity": 14000, "ratePerMinute": 600, "reserveMinutes": 5 } }
+    },
+    {
+      "sequence": 3, "role": "input", "label": "煤", "usableTrackTiles": 24,
+      "train": {
+        "locomotives": 1, "requiredTrackTiles": 22,
+        "wagons": [
+          { "type": "cargo", "capacity": 40, "materials": { "coal": { "slots": 40, "stackSize": 50 } } },
+          { "type": "cargo", "capacity": 40, "materials": { "coal": { "slots": 40, "stackSize": 50 } } }
+        ]
+      },
+      "buffers": { "coal": { "capacity": 6000, "ratePerMinute": 65, "reserveMinutes": 5, "batch": 2000 } }
+    },
+    {
+      "sequence": 4, "role": "output", "label": "铁板", "usableTrackTiles": 16,
+      "train": {
+        "locomotives": 1, "requiredTrackTiles": 15,
+        "wagons": [
+          { "type": "cargo", "capacity": 40, "materials": { "iron-plate": { "slots": 40, "stackSize": 100 } } }
+        ]
+      },
+      "buffers": { "iron-plate": { "capacity": 6000, "ratePerMinute": 600, "reserveMinutes": 1, "batch": 3000 } }
+    }
+  ]
+}

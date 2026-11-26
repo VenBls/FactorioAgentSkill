@@ -1,0 +1,45 @@
+{
+  "placementId": "14b03a2612b328fbc658a60f0bd9b0db335c3c07755c560e3cbc8c24d8093d4e",
+  "blueprintSha256": "89193456c7b0d2e071ce4fddd52a1c7d6e0668cae53b35596ab96bd17f57d0af",
+  "target": {
+    "surface": "world-smoke",
+    "force": "player",
+    "at": [
+      -256,
+      0
+    ],
+    "mode": "built",
+    "area": [
+      -420,
+      -136,
+      -92,
+      136
+    ]
+  },
+  "inspection": {
+    "surfaceIndex": 2,
+    "forceIndex": 1,
+    "seed": 4111381108,
+    "missingChunks": 0,
+    "occupants": 0,
+    "tick": 8938
+  },
+  "expected": {
+    "entities": 857,
+    "tiles": 0
+  },
+  "ready": true,
+  "status": "built",
+  "result": {
+    "entityGhosts": 0,
+    "tileGhosts": 0,
+    "builtEntities": 857,
+    "boundsOfCenters": [
+      -335,
+      -64.5,
+      -177,
+      65.5
+    ],
+    "tick": 8966
+  }
+}

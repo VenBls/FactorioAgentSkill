@@ -1,0 +1,17 @@
+{
+  "coreOffset": { "x": 0, "y": 100 },
+  "fluids": [
+    { "x": 0.5, "y": 32.5, "fluid": "heavy-oil" },
+    { "x": 0.5, "y": 42.5, "fluid": "light-oil" },
+    { "x": 0.5, "y": 52.5, "fluid": "petroleum-gas" }
+  ],
+  "inputs": [
+    { "x": -3.5, "y": 57.5, "item": "iron-plate" },
+    { "x": -2.5, "y": 57.5, "item": "iron-plate" },
+    { "x": -1.5, "y": 57.5, "item": "copper-plate" },
+    { "x": -0.5, "y": 57.5, "item": "electronic-circuit" },
+    { "x": 0.5, "y": 57.5, "item": "advanced-circuit" }
+  ],
+  "output": { "x": -1.5, "y": 67.5, "item": "logistic-robot", "request": 1200 },
+  "roboports": [{ "x": 0, "y": 72 }]
+}

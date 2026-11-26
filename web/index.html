@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101614">
+  <title>FactorioAgent · 蓝图工作台</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="masthead shell">
+    <div class="brand"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>FactorioAgent</div>
+    <span class="instance"><span aria-hidden="true"></span>本地工作台</span>
+  </header>
+  <main class="shell">
+    <h1>蓝图工作台</h1>
+    <section class="workspace" aria-label="蓝图设计与查看">
+      <form id="work-form" class="card input-card">
+        <h2>设计与导入</h2>
+        <fieldset class="mode" aria-label="输入类型">
+          <label><input type="radio" name="mode" value="blueprint" checked>蓝图字符串</label>
+          <label><input type="radio" name="mode" value="spec">设计 JSON</label>
+        </fieldset>
+        <label for="work-input" class="input-label" id="work-label">Factorio 蓝图或蓝图书</label>
+        <textarea id="work-input" spellcheck="false" autocapitalize="off" placeholder="粘贴以 0 开头的字符串"></textarea>
+        <button type="submit" class="primary" id="work-submit">读取蓝图</button>
+        <div class="examples">
+          <button type="button" id="example-r12">打开 R12 工厂</button>
+          <button type="button" id="example-compact">填入设计样例</button>
+        </div>
+        <p id="work-status" class="work-status" role="status"></p>
+      </form>
+      <div class="results">
+        <section class="card map-card" aria-labelledby="map-title">
+          <div class="card-heading">
+            <div class="map-title">
+              <h2 id="map-title">布局预览</h2>
+              <p id="bp-source" role="status">等待加载蓝图</p>
+            </div>
+            <div class="actions">
+              <select id="bp-book" aria-label="蓝图书页面" hidden></select>
+              <button type="button" id="work-download" disabled>下载蓝图</button>
+            </div>
+          </div>
+          <div class="map-viewport">
+            <canvas id="bp-canvas" tabindex="0" aria-label="Factorio 蓝图坐标图。按加减键缩放、方向键平移、0 键显示全图。"></canvas>
+            <div class="map-tools" aria-label="地图控制">
+              <button type="button" data-blueprint-view="all">全图</button>
+              <button type="button" id="bp-grid" aria-pressed="false">网格</button>
+              <button type="button" id="bp-minus" aria-label="缩小">−</button>
+              <button type="button" id="bp-plus" aria-label="放大">+</button>
+            </div>
+          </div>
+          <div class="map-footer"><span>拖动平移 · 滚轮或双指缩放 · 点击实体检查</span><output id="bp-position"></output></div>
+        </section>
+        <div class="details-grid">
+          <section class="card info-card" aria-labelledby="stations-title">
+            <h2 id="stations-title">车站</h2>
+            <div id="bp-stations" class="station-list"><p>加载后可在此定位车站。</p></div>
+          </section>
+          <section class="card info-card" aria-labelledby="bp-detail" aria-live="polite">
+            <h2 id="bp-detail">实体检查</h2>
+            <p id="bp-entity-meta">点击地图上的站台、泵、机器或其他实体。</p>
+            <p id="bp-entity-data"></p>
+            <button type="button" id="bp-copy-stop" hidden>复制游戏站名</button>
+          </section>
+        </div>
+        <section class="card info-card" id="production" aria-labelledby="production-title" hidden>
+          <h2 id="production-title">理论产量</h2>
+          <p id="production-status"></p>
+          <dl id="production-values"></dl>
+        </section>
+        <p class="preview-note">从蓝图坐标绘制。占位图标表示暂未绘制的实体类型。游戏引擎验证另行运行。</p>
+      </div>
+      <section class="card input-card library-card" aria-labelledby="library-title">
+        <h2 id="library-title">本地蓝图库</h2>
+        <form id="library-search" class="library-form">
+          <input type="search" id="library-query" maxlength="200" aria-label="搜索蓝图库" placeholder="按名称、编号或标签搜索">
+          <button type="submit">搜索</button>
+        </form>
+        <ul id="library-results" class="library-list"></ul>
+        <form id="library-save" class="library-form library-save">
+          <label for="library-key">蓝图编号</label>
+          <input id="library-key" required maxlength="80" pattern="[a-z0-9][a-z0-9\-]{0,79}" autocomplete="off" placeholder="例如 r12" title="输入小写英文字母、数字和连字符">
+          <button type="submit" id="library-save-button" disabled>保存当前蓝图</button>
+        </form>
+        <p id="library-status" class="work-status" role="status"></p>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

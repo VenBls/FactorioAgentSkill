@@ -1,0 +1,12 @@
+node_modules/
+out/
+.env
+.env.*
+**/rcon-password
+**/rcon-password.*
+deployment/factorio-lab/runtime/
+deployment/factorio-lab/downloads/
+deployment/factorio-lab/data/*
+!deployment/factorio-lab/data/mods/
+deployment/factorio-lab/data/mods/*
+!deployment/factorio-lab/data/mods/mod-list.json

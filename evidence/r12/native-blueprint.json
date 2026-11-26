@@ -1,0 +1,29 @@
+{
+  "expectedEntities": 857,
+  "builtEntities": 857,
+  "originalEntityCenterBounds": {
+    "minX": -79,
+    "minY": -6.5,
+    "maxX": 79,
+    "maxY": 123.5
+  },
+  "engineWorldOffset": {
+    "x": 0,
+    "y": -58
+  },
+  "image": "native-blueprint.png",
+  "pixelWidth": 4032,
+  "pixelHeight": 3360,
+  "zoom": 0.75,
+  "pixelsPerTile": 24,
+  "engineVersion": "2.1.25",
+  "imageType": "Factorio native screenshot of revived blueprint on an isolated lab-tile surface",
+  "altMode": true,
+  "blueprintSha256": "89193456c7b0d2e071ce4fddd52a1c7d6e0668cae53b35596ab96bd17f57d0af",
+  "bounds": {
+    "minX": -84,
+    "maxX": 84,
+    "minY": -11,
+    "maxY": 129
+  }
+}

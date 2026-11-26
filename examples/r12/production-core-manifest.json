@@ -1,0 +1,1210 @@
+{
+  "bounds": {
+    "minX": -22,
+    "minY": -25,
+    "maxX": 22,
+    "maxY": 25
+  },
+  "inputs": [
+    {
+      "x": -5.5,
+      "y": -24.5,
+      "item": "iron-plate"
+    },
+    {
+      "x": -3.5,
+      "y": -24.5,
+      "item": "copper-plate"
+    },
+    {
+      "x": -1.5,
+      "y": -24.5,
+      "item": "electronic-circuit"
+    },
+    {
+      "x": 0.5,
+      "y": -24.5,
+      "item": "advanced-circuit"
+    }
+  ],
+  "fluids": [
+    {
+      "x": -20.5,
+      "y": -24.5,
+      "fluid": "heavy-oil"
+    },
+    {
+      "x": -8.5,
+      "y": -24.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": 16.5,
+      "y": -24.5,
+      "fluid": "water"
+    },
+    {
+      "x": 20.5,
+      "y": -24.5,
+      "fluid": "petroleum-gas"
+    }
+  ],
+  "output": {
+    "x": 6.5,
+    "y": -24.5,
+    "item": "logistic-robot"
+  },
+  "roboports": [
+    {
+      "x": 0,
+      "y": -6
+    },
+    {
+      "x": 0,
+      "y": 13
+    }
+  ],
+  "machines": [
+    {
+      "x": -19.5,
+      "y": -16.5,
+      "name": "chemical-plant",
+      "recipe": "lubricant"
+    },
+    {
+      "x": -9.5,
+      "y": -16.5,
+      "name": "chemical-plant",
+      "recipe": "light-oil-cracking"
+    },
+    {
+      "x": -1.5,
+      "y": -16.5,
+      "name": "chemical-plant",
+      "recipe": "light-oil-cracking"
+    },
+    {
+      "x": 9.5,
+      "y": -16.5,
+      "name": "chemical-plant",
+      "recipe": "sulfur"
+    },
+    {
+      "x": 16.5,
+      "y": -7.5,
+      "name": "chemical-plant",
+      "recipe": "sulfuric-acid"
+    },
+    {
+      "x": 8.5,
+      "y": 2.5,
+      "name": "chemical-plant",
+      "recipe": "battery"
+    },
+    {
+      "x": 17.5,
+      "y": 2.5,
+      "name": "chemical-plant",
+      "recipe": "battery"
+    },
+    {
+      "x": -17.5,
+      "y": 3.5,
+      "name": "assembling-machine-2",
+      "recipe": "electric-engine-unit"
+    },
+    {
+      "x": -10.5,
+      "y": 3.5,
+      "name": "assembling-machine-2",
+      "recipe": "electric-engine-unit"
+    },
+    {
+      "x": -3.5,
+      "y": 3.5,
+      "name": "assembling-machine-2",
+      "recipe": "electric-engine-unit"
+    },
+    {
+      "x": -17.5,
+      "y": 9.5,
+      "name": "electric-furnace",
+      "recipe": "steel-plate"
+    },
+    {
+      "x": -10.5,
+      "y": 9.5,
+      "name": "electric-furnace",
+      "recipe": "steel-plate"
+    },
+    {
+      "x": -3.5,
+      "y": 9.5,
+      "name": "electric-furnace",
+      "recipe": "steel-plate"
+    },
+    {
+      "x": 3.5,
+      "y": 9.5,
+      "name": "electric-furnace",
+      "recipe": "steel-plate"
+    },
+    {
+      "x": -17.5,
+      "y": 16.5,
+      "name": "assembling-machine-2",
+      "recipe": "engine-unit"
+    },
+    {
+      "x": -10.5,
+      "y": 16.5,
+      "name": "assembling-machine-2",
+      "recipe": "engine-unit"
+    },
+    {
+      "x": -3.5,
+      "y": 16.5,
+      "name": "assembling-machine-2",
+      "recipe": "engine-unit"
+    },
+    {
+      "x": 3.5,
+      "y": 16.5,
+      "name": "assembling-machine-2",
+      "recipe": "iron-gear-wheel"
+    },
+    {
+      "x": 10.5,
+      "y": 16.5,
+      "name": "assembling-machine-2",
+      "recipe": "pipe"
+    },
+    {
+      "x": 17.5,
+      "y": 16.5,
+      "name": "assembling-machine-2",
+      "recipe": "logistic-robot"
+    },
+    {
+      "x": -17.5,
+      "y": 23.5,
+      "name": "assembling-machine-2",
+      "recipe": "flying-robot-frame"
+    },
+    {
+      "x": -10.5,
+      "y": 23.5,
+      "name": "assembling-machine-2",
+      "recipe": "flying-robot-frame"
+    },
+    {
+      "x": -3.5,
+      "y": 23.5,
+      "name": "assembling-machine-2",
+      "recipe": "flying-robot-frame"
+    },
+    {
+      "x": 3.5,
+      "y": 23.5,
+      "name": "assembling-machine-2",
+      "recipe": "flying-robot-frame"
+    },
+    {
+      "x": 10.5,
+      "y": 23.5,
+      "name": "assembling-machine-2",
+      "recipe": "flying-robot-frame"
+    },
+    {
+      "x": 17.5,
+      "y": 23.5,
+      "name": "assembling-machine-2",
+      "recipe": "flying-robot-frame"
+    }
+  ],
+  "power": {
+    "x": -17,
+    "y": -21
+  },
+  "fluidTiles": [
+    {
+      "x": -20.5,
+      "y": -24.5,
+      "fluid": "heavy-oil"
+    },
+    {
+      "x": -20.5,
+      "y": -23.5,
+      "fluid": "heavy-oil"
+    },
+    {
+      "x": -20.5,
+      "y": -22.5,
+      "fluid": "heavy-oil"
+    },
+    {
+      "x": -20.5,
+      "y": -21.5,
+      "fluid": "heavy-oil"
+    },
+    {
+      "x": -20.5,
+      "y": -20.5,
+      "fluid": "heavy-oil"
+    },
+    {
+      "x": -20.5,
+      "y": -19.5,
+      "fluid": "heavy-oil"
+    },
+    {
+      "x": -20.5,
+      "y": -18.5,
+      "fluid": "heavy-oil"
+    },
+    {
+      "x": -8.5,
+      "y": -24.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -8.5,
+      "y": -23.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -8.5,
+      "y": -22.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -8.5,
+      "y": -21.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -8.5,
+      "y": -20.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -8.5,
+      "y": -19.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -8.5,
+      "y": -18.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -7.5,
+      "y": -23.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -6.5,
+      "y": -23.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -5.5,
+      "y": -23.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -4.5,
+      "y": -23.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -3.5,
+      "y": -23.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -2.5,
+      "y": -23.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -1.5,
+      "y": -23.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -0.5,
+      "y": -23.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -0.5,
+      "y": -22.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -0.5,
+      "y": -21.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -0.5,
+      "y": -20.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -0.5,
+      "y": -19.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": -0.5,
+      "y": -18.5,
+      "fluid": "light-oil"
+    },
+    {
+      "x": 16.5,
+      "y": -24.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -23.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -22.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -20.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -19.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -18.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -17.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -16.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -15.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -14.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -13.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -12.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -11.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -10.5,
+      "fluid": "water"
+    },
+    {
+      "x": 16.5,
+      "y": -9.5,
+      "fluid": "water"
+    },
+    {
+      "x": 15.5,
+      "y": -9.5,
+      "fluid": "water"
+    },
+    {
+      "x": -10.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": -10.5,
+      "y": -20.5,
+      "fluid": "water"
+    },
+    {
+      "x": -10.5,
+      "y": -19.5,
+      "fluid": "water"
+    },
+    {
+      "x": -10.5,
+      "y": -18.5,
+      "fluid": "water"
+    },
+    {
+      "x": -9.5,
+      "y": -21.5,
+      "fluid": "water",
+      "facing": 12
+    },
+    {
+      "x": -7.5,
+      "y": -21.5,
+      "fluid": "water",
+      "facing": 4
+    },
+    {
+      "x": -6.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": -5.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": -4.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": -3.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": -2.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": -2.5,
+      "y": -20.5,
+      "fluid": "water"
+    },
+    {
+      "x": -2.5,
+      "y": -19.5,
+      "fluid": "water"
+    },
+    {
+      "x": -2.5,
+      "y": -18.5,
+      "fluid": "water"
+    },
+    {
+      "x": -1.5,
+      "y": -21.5,
+      "fluid": "water",
+      "facing": 12
+    },
+    {
+      "x": 0.5,
+      "y": -21.5,
+      "fluid": "water",
+      "facing": 4
+    },
+    {
+      "x": 1.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 2.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 3.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 4.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 5.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 6.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 7.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 8.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 9.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 10.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 11.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 12.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 13.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 14.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 15.5,
+      "y": -21.5,
+      "fluid": "water"
+    },
+    {
+      "x": 8.5,
+      "y": -20.5,
+      "fluid": "water"
+    },
+    {
+      "x": 8.5,
+      "y": -19.5,
+      "fluid": "water"
+    },
+    {
+      "x": 8.5,
+      "y": -18.5,
+      "fluid": "water"
+    },
+    {
+      "x": 20.5,
+      "y": -24.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 20.5,
+      "y": -23.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 20.5,
+      "y": -22.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 20.5,
+      "y": -21.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 20.5,
+      "y": -20.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 20.5,
+      "y": -19.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 20.5,
+      "y": -18.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 20.5,
+      "y": -17.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 20.5,
+      "y": -16.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 20.5,
+      "y": -15.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 20.5,
+      "y": -14.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 20.5,
+      "y": -13.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 20.5,
+      "y": -12.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 20.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 10.5,
+      "y": -18.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 11.5,
+      "y": -18.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 12.5,
+      "y": -18.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 13.5,
+      "y": -18.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 14.5,
+      "y": -18.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 15.5,
+      "y": -18.5,
+      "fluid": "petroleum-gas",
+      "facing": 12
+    },
+    {
+      "x": 17.5,
+      "y": -18.5,
+      "fluid": "petroleum-gas",
+      "facing": 4
+    },
+    {
+      "x": 18.5,
+      "y": -18.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 19.5,
+      "y": -18.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -10.5,
+      "y": -14.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -10.5,
+      "y": -13.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -10.5,
+      "y": -12.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -10.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -2.5,
+      "y": -14.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -2.5,
+      "y": -13.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -2.5,
+      "y": -12.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -2.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -9.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -8.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -7.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -6.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -5.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -4.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -3.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -1.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -0.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 0.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 1.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 2.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 3.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 4.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 5.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 6.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 7.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 8.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 9.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 10.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 11.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 12.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 13.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 14.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 15.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas",
+      "facing": 12
+    },
+    {
+      "x": 17.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas",
+      "facing": 4
+    },
+    {
+      "x": 18.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": 19.5,
+      "y": -11.5,
+      "fluid": "petroleum-gas"
+    },
+    {
+      "x": -20.5,
+      "y": -14.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -20.5,
+      "y": -13.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -20.5,
+      "y": -12.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -20.5,
+      "y": -11.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -20.5,
+      "y": -10.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -20.5,
+      "y": -9.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -20.5,
+      "y": -8.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -20.5,
+      "y": -7.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -20.5,
+      "y": -6.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -20.5,
+      "y": -5.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -20.5,
+      "y": -4.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -20.5,
+      "y": -3.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -20.5,
+      "y": -2.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -20.5,
+      "y": -1.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -20.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -19.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -18.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -17.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -16.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -15.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -14.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -13.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -12.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -11.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -10.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -9.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -8.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -7.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -6.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -5.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -4.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -3.5,
+      "y": -0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -17.5,
+      "y": 0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -17.5,
+      "y": 1.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -10.5,
+      "y": 0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -10.5,
+      "y": 1.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -3.5,
+      "y": 0.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": -3.5,
+      "y": 1.5,
+      "fluid": "lubricant"
+    },
+    {
+      "x": 15.5,
+      "y": -5.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 15.5,
+      "y": -4.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 15.5,
+      "y": -3.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 15.5,
+      "y": -2.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 7.5,
+      "y": -2.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 8.5,
+      "y": -2.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 9.5,
+      "y": -2.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 10.5,
+      "y": -2.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 11.5,
+      "y": -2.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 12.5,
+      "y": -2.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 13.5,
+      "y": -2.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 14.5,
+      "y": -2.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 16.5,
+      "y": -2.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 7.5,
+      "y": -1.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 7.5,
+      "y": -0.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 7.5,
+      "y": 0.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 16.5,
+      "y": -1.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 16.5,
+      "y": -0.5,
+      "fluid": "sulfuric-acid"
+    },
+    {
+      "x": 16.5,
+      "y": 0.5,
+      "fluid": "sulfuric-acid"
+    }
+  ],
+  "entityCount": 331
+}

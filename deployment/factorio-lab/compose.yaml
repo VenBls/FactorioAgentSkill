@@ -1,0 +1,14 @@
+services:
+  factorio:
+    image: debian:bookworm-slim
+    container_name: factorio-codex-lab
+    init: true
+    restart: unless-stopped
+    entrypoint: ["/bin/sh", "/lab/config/start-factorio.sh"]
+    ports:
+      - "127.0.0.1:27015:27015/tcp"
+    volumes:
+      - ./runtime:/runtime:ro
+      - ./config:/lab/config:ro
+      - ./data:/lab/data
+    stop_grace_period: 30s

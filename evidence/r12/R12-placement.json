@@ -1,0 +1,110 @@
+{
+  "pass": true,
+  "outcome": "placed",
+  "blueprintSha256": "89193456c7b0d2e071ce4fddd52a1c7d6e0668cae53b35596ab96bd17f57d0af",
+  "surface": "codex-design-test",
+  "surfaceIndex": 2,
+  "tick": 9687,
+  "gameVersion": "2.1.25",
+  "mods": {
+    "base": "2.1.25",
+    "elevated-rails": "2.1.25",
+    "recycler": "2.1.25",
+    "quality": "2.1.25",
+    "space-age": "2.1.25"
+  },
+  "normalizedGeometrySha256": "e09539fe98be63d4fbb515a3f9e7f6357845178fde9bea51fea2bfaef958b1b9",
+  "placementOffset": {
+    "x": 0,
+    "y": -58
+  },
+  "entityCount": 857,
+  "boundsOfEntityCenters": {
+    "minX": -79,
+    "minY": -64.5,
+    "maxX": 79,
+    "maxY": 65.5
+  },
+  "prototypes": {
+    "straight-rail": 268,
+    "rail-chain-signal": 8,
+    "curved-rail-a": 20,
+    "curved-rail-b": 18,
+    "half-diagonal-rail": 112,
+    "rail-signal": 13,
+    "fast-inserter": 50,
+    "passive-provider-chest": 31,
+    "pump": 3,
+    "pipe": 210,
+    "medium-electric-pole": 5,
+    "requester-chest": 23,
+    "storage-tank": 3,
+    "roboport": 3,
+    "big-electric-pole": 5,
+    "train-stop": 7,
+    "chemical-plant": 7,
+    "assembling-machine-2": 15,
+    "electric-furnace": 4,
+    "pipe-to-ground": 36,
+    "substation": 16
+  },
+  "stations": [
+    {
+      "name": "R12-01 候车｜A股道",
+      "x": 9,
+      "y": -47,
+      "direction": 4,
+      "trainsLimit": 1,
+      "connectedRail": true
+    },
+    {
+      "name": "R12-02 候车｜B股道",
+      "x": 9,
+      "y": -39,
+      "direction": 4,
+      "trainsLimit": 1,
+      "connectedRail": true
+    },
+    {
+      "name": "R12-03 入料｜重油",
+      "x": 9,
+      "y": -31,
+      "direction": 4,
+      "trainsLimit": 1,
+      "connectedRail": true
+    },
+    {
+      "name": "R12-04 入料｜轻油",
+      "x": 9,
+      "y": -21,
+      "direction": 4,
+      "trainsLimit": 1,
+      "connectedRail": true
+    },
+    {
+      "name": "R12-05 入料｜石油气",
+      "x": 9,
+      "y": -11,
+      "direction": 4,
+      "trainsLimit": 1,
+      "connectedRail": true
+    },
+    {
+      "name": "R12-06 入料｜铁铜板与电路板",
+      "x": 9,
+      "y": -1,
+      "direction": 4,
+      "trainsLimit": 1,
+      "connectedRail": true
+    },
+    {
+      "name": "R12-07 出料｜物流机器人",
+      "x": 9,
+      "y": 9,
+      "direction": 4,
+      "trainsLimit": 1,
+      "connectedRail": true
+    }
+  ],
+  "snapshotRequested": "codex-design-built"
+}

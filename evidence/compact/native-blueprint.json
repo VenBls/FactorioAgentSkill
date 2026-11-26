@@ -1,0 +1,57 @@
+{
+  "pass": true,
+  "stage": "render",
+  "importStatus": 0,
+  "expectedEntities": 6,
+  "importedEntities": 6,
+  "builtEntities": 6,
+  "expectedTiles": 0,
+  "importedTiles": 0,
+  "builtTiles": 0,
+  "geometryAligned": true,
+  "directionsAligned": true,
+  "geometryMatchedEntities": 6,
+  "geometryDifferences": {},
+  "directionDifferences": {},
+  "engineWorldOffset": {
+    "x": 0,
+    "y": -1
+  },
+  "entitiesNotBuilt": {},
+  "tilesNotBuilt": {},
+  "prototypes": {
+    "iron-chest": 2,
+    "fast-inserter": 2,
+    "assembling-machine-2": 1,
+    "medium-electric-pole": 1
+  },
+  "stations": {},
+  "activeMods": {
+    "base": "2.1.25",
+    "elevated-rails": "2.1.25",
+    "recycler": "2.1.25",
+    "quality": "2.1.25",
+    "space-age": "2.1.25"
+  },
+  "scope": "Exact engine import and placement on a clean lab tile surface",
+  "image": "native-blueprint.png",
+  "pixelWidth": 360,
+  "pixelHeight": 288,
+  "zoom": 0.75,
+  "pixelsPerTile": 24,
+  "bounds": {
+    "minX": -7,
+    "maxX": 8,
+    "minY": -5,
+    "maxY": 7
+  },
+  "engineCenter": {
+    "x": 0.5,
+    "y": 0
+  },
+  "altMode": true,
+  "engineVersion": "2.1.25",
+  "engineBuild": "build 88022, win64, steam",
+  "game": "space-age",
+  "blueprintSha256": "f1f32653a680e42879c9e56c64ee492299d458f89e7e7687057325c08e4d265d"
+}

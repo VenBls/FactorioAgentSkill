@@ -1,0 +1,382 @@
+{
+  "version": "2.1.25",
+  "scope": "Station labels only. The prior performance and train-test report covers the identical game objects and settings with previous labels.",
+  "comparison": "Decoded exchange strings were bit-for-field identical after reversing the seven train-stop station values.",
+  "historicalReport": {
+    "file": "engine-report.json",
+    "sha256": "efdef89f35d16b34c9b6acb0fbf9917f2b86d75fea6fc6c7ba3c4df3c3bf5edf"
+  },
+  "files": [
+    {
+      "file": "rail-stations.txt",
+      "previousSha256": "73fffd04f21bbf6989ec40d196f6e4264d5563dc8833a24a7fd1372e4e1116b7",
+      "sha256": "c7e1baabe760d7491c8279cec427557761b6814e9e9324725159bc979f43734f",
+      "checkedStationCount": 7,
+      "entityCount": 478,
+      "stationNames": [
+        {
+          "previousName": "R12 | H1 | WAIT A",
+          "name": "R12-01 候车｜A股道",
+          "entityNumber": 291,
+          "position": {
+            "x": 9,
+            "y": 11
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | H2 | WAIT B",
+          "name": "R12-02 候车｜B股道",
+          "entityNumber": 293,
+          "position": {
+            "x": 9,
+            "y": 19
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | F1 | IN Heavy oil",
+          "name": "R12-03 入料｜重油",
+          "entityNumber": 295,
+          "position": {
+            "x": 9,
+            "y": 27
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | F2 | IN Light oil",
+          "name": "R12-04 入料｜轻油",
+          "entityNumber": 297,
+          "position": {
+            "x": 9,
+            "y": 37
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | F3 | IN Petroleum gas",
+          "name": "R12-05 入料｜石油气",
+          "entityNumber": 299,
+          "position": {
+            "x": 9,
+            "y": 47
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | S1 | IN Metals + Circuits",
+          "name": "R12-06 入料｜铁铜板与电路板",
+          "entityNumber": 301,
+          "position": {
+            "x": 9,
+            "y": 57
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | O1 | OUT Logistic robot",
+          "name": "R12-07 出料｜物流机器人",
+          "entityNumber": 303,
+          "position": {
+            "x": 9,
+            "y": 67
+          },
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "file": "robot-district-integrated.txt",
+      "previousSha256": "eeb0da26c64cd354b6041abafa61ab553eaad7946a460fe284b7172599e66dd3",
+      "sha256": "89193456c7b0d2e071ce4fddd52a1c7d6e0668cae53b35596ab96bd17f57d0af",
+      "checkedStationCount": 7,
+      "entityCount": 857,
+      "stationNames": [
+        {
+          "previousName": "R12 | H1 | WAIT A",
+          "name": "R12-01 候车｜A股道",
+          "entityNumber": 291,
+          "position": {
+            "x": 9,
+            "y": 11
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | H2 | WAIT B",
+          "name": "R12-02 候车｜B股道",
+          "entityNumber": 293,
+          "position": {
+            "x": 9,
+            "y": 19
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | F1 | IN Heavy oil",
+          "name": "R12-03 入料｜重油",
+          "entityNumber": 295,
+          "position": {
+            "x": 9,
+            "y": 27
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | F2 | IN Light oil",
+          "name": "R12-04 入料｜轻油",
+          "entityNumber": 297,
+          "position": {
+            "x": 9,
+            "y": 37
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | F3 | IN Petroleum gas",
+          "name": "R12-05 入料｜石油气",
+          "entityNumber": 299,
+          "position": {
+            "x": 9,
+            "y": 47
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | S1 | IN Metals + Circuits",
+          "name": "R12-06 入料｜铁铜板与电路板",
+          "entityNumber": 301,
+          "position": {
+            "x": 9,
+            "y": 57
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | O1 | OUT Logistic robot",
+          "name": "R12-07 出料｜物流机器人",
+          "entityNumber": 303,
+          "position": {
+            "x": 9,
+            "y": 67
+          },
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "file": "robot-district-book.txt",
+      "previousSha256": "f8a45be7def007ad29e5906a3c6148b6190ae0ab65af345fcad334aa958e622b",
+      "sha256": "9172aa9c790589a920246f6b04269f0a63083d2532462916c58e3910fe8ae739",
+      "checkedStationCount": 7,
+      "entityCount": 809,
+      "stationNames": [
+        {
+          "previousName": "R12 | H1 | WAIT A",
+          "name": "R12-01 候车｜A股道",
+          "entityNumber": 291,
+          "position": {
+            "x": 9,
+            "y": 11
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | H2 | WAIT B",
+          "name": "R12-02 候车｜B股道",
+          "entityNumber": 293,
+          "position": {
+            "x": 9,
+            "y": 19
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | F1 | IN Heavy oil",
+          "name": "R12-03 入料｜重油",
+          "entityNumber": 295,
+          "position": {
+            "x": 9,
+            "y": 27
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | F2 | IN Light oil",
+          "name": "R12-04 入料｜轻油",
+          "entityNumber": 297,
+          "position": {
+            "x": 9,
+            "y": 37
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | F3 | IN Petroleum gas",
+          "name": "R12-05 入料｜石油气",
+          "entityNumber": 299,
+          "position": {
+            "x": 9,
+            "y": 47
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | S1 | IN Metals + Circuits",
+          "name": "R12-06 入料｜铁铜板与电路板",
+          "entityNumber": 301,
+          "position": {
+            "x": 9,
+            "y": 57
+          },
+          "limit": 1
+        },
+        {
+          "previousName": "R12 | O1 | OUT Logistic robot",
+          "name": "R12-07 出料｜物流机器人",
+          "entityNumber": 303,
+          "position": {
+            "x": 9,
+            "y": 67
+          },
+          "limit": 1
+        }
+      ]
+    }
+  ],
+  "unchanged": {
+    "file": "production-core.txt",
+    "sha256": "22b9a74c2464831e609aaf3680cd6534b4c842e8521811d4607c6ce58e0ea351"
+  },
+  "nativeValidation": {
+    "rail-stations.txt": {
+      "pass": true,
+      "importsAndBuilds": true,
+      "entityCount": 478,
+      "stations": [
+        {
+          "name": "R12-01 候车｜A股道",
+          "x": 9,
+          "y": -21,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12-02 候车｜B股道",
+          "x": 9,
+          "y": -13,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12-03 入料｜重油",
+          "x": 9,
+          "y": -5,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12-04 入料｜轻油",
+          "x": 9,
+          "y": 5,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12-05 入料｜石油气",
+          "x": 9,
+          "y": 15,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12-06 入料｜铁铜板与电路板",
+          "x": 9,
+          "y": 25,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12-07 出料｜物流机器人",
+          "x": 9,
+          "y": 35,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        }
+      ]
+    },
+    "robot-district-integrated.txt": {
+      "pass": true,
+      "importsAndBuilds": true,
+      "entityCount": 857,
+      "stations": [
+        {
+          "name": "R12-01 候车｜A股道",
+          "x": 9,
+          "y": -47,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12-02 候车｜B股道",
+          "x": 9,
+          "y": -39,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12-03 入料｜重油",
+          "x": 9,
+          "y": -31,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12-04 入料｜轻油",
+          "x": 9,
+          "y": -21,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12-05 入料｜石油气",
+          "x": 9,
+          "y": -11,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12-06 入料｜铁铜板与电路板",
+          "x": 9,
+          "y": -1,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12-07 出料｜物流机器人",
+          "x": 9,
+          "y": 9,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        }
+      ]
+    },
+    "robot-district-book.txt": {
+      "pass": true,
+      "imports": true,
+      "childEntityCounts": [
+        478,
+        331
+      ]
+    }
+  },
+  "replay": {
+    "rebuiltIdentical": [
+      "robot-district-integrated.txt",
+      "robot-district-book.txt",
+      "robot-district-integrated-manifest.json",
+      "../robot-district-integrated.json"
+    ]
+  }
+}

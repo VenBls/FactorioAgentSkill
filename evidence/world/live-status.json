@@ -1,0 +1,48 @@
+{
+  "tick": 113234,
+  "multiplayer": true,
+  "mods": {
+    "base": "2.1.25",
+    "elevated-rails": "2.1.25",
+    "recycler": "2.1.25",
+    "quality": "2.1.25",
+    "space-age": "2.1.25"
+  },
+  "surfaces": [
+    {
+      "name": "nauvis",
+      "index": 1
+    },
+    {
+      "name": "codex-design-test",
+      "index": 2
+    }
+  ],
+  "forces": [
+    {
+      "name": "player",
+      "index": 1
+    },
+    {
+      "name": "enemy",
+      "index": 2
+    },
+    {
+      "name": "neutral",
+      "index": 3
+    }
+  ],
+  "connectedPlayers": [],
+  "onlineCount": 0,
+  "selectedPlayer": {
+    "name": "VenBls",
+    "surface": "codex-design-test",
+    "force": "player",
+    "position": {
+      "y": 11.46875,
+      "x": 15.96875
+    },
+    "online": false
+  },
+  "requestedPlayer": "VenBls"
+}

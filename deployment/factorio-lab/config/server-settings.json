@@ -1,0 +1,12 @@
+{
+  "name": "Codex Factorio Lab | Space Age",
+  "description": "Space Age 蓝图建造实验服",
+  "tags": ["space-age", "codex-lab"],
+  "max_players": 4,
+  "visibility": { "public": false, "lan": true },
+  "require_user_verification": false,
+  "allow_commands": "admins-only",
+  "autosave_interval": 10,
+  "autosave_slots": 3,
+  "auto_pause": false
+}

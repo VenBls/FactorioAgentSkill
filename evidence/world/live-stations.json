@@ -1,0 +1,113 @@
+{
+  "tick": 113234,
+  "surface": "codex-design-test",
+  "surfaceIndex": 2,
+  "total": 7,
+  "entities": [
+    {
+      "name": "train-stop",
+      "type": "train-stop",
+      "position": {
+        "y": -47,
+        "x": 9
+      },
+      "direction": 4,
+      "unit": 1204,
+      "force": "player",
+      "quality": "normal",
+      "station": "R12-01 候车｜A股道",
+      "connectedRail": true,
+      "trainsLimit": 1
+    },
+    {
+      "name": "train-stop",
+      "type": "train-stop",
+      "position": {
+        "y": -39,
+        "x": 9
+      },
+      "direction": 4,
+      "unit": 1206,
+      "force": "player",
+      "quality": "normal",
+      "station": "R12-02 候车｜B股道",
+      "connectedRail": true,
+      "trainsLimit": 1
+    },
+    {
+      "name": "train-stop",
+      "type": "train-stop",
+      "position": {
+        "y": -31,
+        "x": 9
+      },
+      "direction": 4,
+      "unit": 1208,
+      "force": "player",
+      "quality": "normal",
+      "station": "R12-03 入料｜重油",
+      "connectedRail": true,
+      "trainsLimit": 1
+    },
+    {
+      "name": "train-stop",
+      "type": "train-stop",
+      "position": {
+        "y": -21,
+        "x": 9
+      },
+      "direction": 4,
+      "unit": 1210,
+      "force": "player",
+      "quality": "normal",
+      "station": "R12-04 入料｜轻油",
+      "connectedRail": true,
+      "trainsLimit": 1
+    },
+    {
+      "name": "train-stop",
+      "type": "train-stop",
+      "position": {
+        "y": -11,
+        "x": 9
+      },
+      "direction": 4,
+      "unit": 1212,
+      "force": "player",
+      "quality": "normal",
+      "station": "R12-05 入料｜石油气",
+      "connectedRail": true,
+      "trainsLimit": 1
+    },
+    {
+      "name": "train-stop",
+      "type": "train-stop",
+      "position": {
+        "y": -1,
+        "x": 9
+      },
+      "direction": 4,
+      "unit": 1214,
+      "force": "player",
+      "quality": "normal",
+      "station": "R12-06 入料｜铁铜板与电路板",
+      "connectedRail": true,
+      "trainsLimit": 1
+    },
+    {
+      "name": "train-stop",
+      "type": "train-stop",
+      "position": {
+        "y": 9,
+        "x": 9
+      },
+      "direction": 4,
+      "unit": 1216,
+      "force": "player",
+      "quality": "normal",
+      "station": "R12-07 出料｜物流机器人",
+      "connectedRail": true,
+      "trainsLimit": 1
+    }
+  ]
+}

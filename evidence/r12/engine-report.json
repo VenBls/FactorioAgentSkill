@@ -1,0 +1,2933 @@
+{
+  "engineVersion": "2.1.25",
+  "engineBuild": 88022,
+  "platform": "Windows x64, Steam, headless",
+  "blueprintSha256": "22b9a74c2464831e609aaf3680cd6534b4c842e8521811d4607c6ce58e0ea351",
+  "production": {
+    "petroleumGas": {
+      "pass": true,
+      "stage": "production-throughput",
+      "counts": {
+        "expected": 331,
+        "built": 331,
+        "tileExpected": 0,
+        "tileBuilt": 0,
+        "remaining": {}
+      },
+      "prototypes": {
+        "chemical-plant": 7,
+        "fast-inserter": 44,
+        "passive-provider-chest": 26,
+        "requester-chest": 23,
+        "assembling-machine-2": 15,
+        "electric-furnace": 4,
+        "pipe": 186,
+        "pipe-to-ground": 8,
+        "roboport": 2,
+        "substation": 16
+      },
+      "coordinateOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "mods": {
+        "base": "2.1.25"
+      },
+      "targets": {
+        "robotsPerMinute": 12
+      },
+      "stations": {},
+      "scope": "Production from Blueprint chests and pipe ports into outgoing chest",
+      "warmupGameMinutes": 10,
+      "measureGameMinutes": 10,
+      "totalOutput": 133,
+      "outputPerMinute": 13.3,
+      "oneMinuteCounts": [
+        15,
+        12,
+        12,
+        14,
+        12,
+        15,
+        13,
+        14,
+        15,
+        11
+      ],
+      "bots": 200,
+      "research": [
+        "worker-robots-speed-1",
+        "worker-robots-speed-2",
+        "worker-robots-storage-1",
+        "worker-robots-storage-2"
+      ],
+      "firstOutputGameSeconds": 120,
+      "consumedSinceStart": {
+        "iron-plate": 5337,
+        "copper-plate": 594,
+        "electronic-circuit": 1197,
+        "advanced-circuit": 458,
+        "heavy-oil": 7830,
+        "water": 51240,
+        "petroleum-gas": 23040
+      },
+      "machines": [
+        {
+          "x": -19.5,
+          "y": -16.5,
+          "machine": "chemical-plant",
+          "recipe": "lubricant",
+          "crafts": 782,
+          "status": "full_output",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "heavy-oil": 40,
+            "lubricant": 195
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -9.5,
+          "y": -16.5,
+          "machine": "chemical-plant",
+          "recipe": "light-oil-cracking",
+          "crafts": 0,
+          "status": "fluid_ingredient_shortage",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "water": 120
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -1.5,
+          "y": -16.5,
+          "machine": "chemical-plant",
+          "recipe": "light-oil-cracking",
+          "crafts": 0,
+          "status": "fluid_ingredient_shortage",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "water": 120
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 3.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 80,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 9.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 16.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 82,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 23.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 39,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 3.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 80,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 9.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 16.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 82,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 23.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 39,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 3.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 80,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 9.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 16.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 82,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 23.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 39,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 9.5,
+          "y": -16.5,
+          "machine": "chemical-plant",
+          "recipe": "sulfur",
+          "crafts": 767,
+          "status": "full_output",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "water": 120,
+            "petroleum-gas": 120
+          },
+          "outputInventory": [
+            {
+              "name": "sulfur",
+              "quality": "normal",
+              "count": 50
+            }
+          ]
+        },
+        {
+          "x": 16.5,
+          "y": -7.5,
+          "machine": "chemical-plant",
+          "recipe": "sulfuric-acid",
+          "crafts": 282,
+          "status": "full_output",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "water": 400,
+            "sulfuric-acid": 160
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 3.5,
+          "y": 9.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 3.5,
+          "y": 16.5,
+          "machine": "assembling-machine-2",
+          "recipe": "iron-gear-wheel",
+          "crafts": 397,
+          "status": "full_output",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "iron-gear-wheel",
+              "quality": "normal",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "x": 3.5,
+          "y": 23.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 8.5,
+          "y": 2.5,
+          "machine": "chemical-plant",
+          "recipe": "battery",
+          "crafts": 296,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "sulfuric-acid": 80
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 10.5,
+          "y": 16.5,
+          "machine": "assembling-machine-2",
+          "recipe": "pipe",
+          "crafts": 687,
+          "status": "full_output",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "pipe",
+              "quality": "normal",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "x": 10.5,
+          "y": 23.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 2.5,
+          "machine": "chemical-plant",
+          "recipe": "battery",
+          "crafts": 296,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "sulfuric-acid": 80
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 16.5,
+          "machine": "assembling-machine-2",
+          "recipe": "logistic-robot",
+          "crafts": 228,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 23.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        }
+      ],
+      "powerFixtures": [
+        {
+          "y": -24,
+          "x": -19
+        }
+      ]
+    },
+    "lightOil": {
+      "pass": true,
+      "stage": "production-throughput",
+      "counts": {
+        "expected": 331,
+        "built": 331,
+        "tileExpected": 0,
+        "tileBuilt": 0,
+        "remaining": {}
+      },
+      "prototypes": {
+        "chemical-plant": 7,
+        "fast-inserter": 44,
+        "passive-provider-chest": 26,
+        "requester-chest": 23,
+        "assembling-machine-2": 15,
+        "electric-furnace": 4,
+        "pipe": 186,
+        "pipe-to-ground": 8,
+        "roboport": 2,
+        "substation": 16
+      },
+      "coordinateOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "mods": {
+        "base": "2.1.25"
+      },
+      "targets": {
+        "robotsPerMinute": 12
+      },
+      "stations": {},
+      "scope": "Production from Blueprint chests and pipe ports into outgoing chest",
+      "warmupGameMinutes": 10,
+      "measureGameMinutes": 10,
+      "totalOutput": 134,
+      "outputPerMinute": 13.4,
+      "oneMinuteCounts": [
+        16,
+        12,
+        13,
+        13,
+        15,
+        13,
+        12,
+        14,
+        14,
+        12
+      ],
+      "bots": 200,
+      "research": [
+        "worker-robots-speed-1",
+        "worker-robots-speed-2",
+        "worker-robots-storage-1",
+        "worker-robots-storage-2"
+      ],
+      "firstOutputGameSeconds": 125,
+      "consumedSinceStart": {
+        "iron-plate": 5336,
+        "copper-plate": 592,
+        "electronic-circuit": 1197,
+        "advanced-circuit": 460,
+        "heavy-oil": 7830,
+        "light-oil": 36000,
+        "water": 87170
+      },
+      "machines": [
+        {
+          "x": -19.5,
+          "y": -16.5,
+          "machine": "chemical-plant",
+          "recipe": "lubricant",
+          "crafts": 782,
+          "status": "full_output",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "heavy-oil": 40,
+            "lubricant": 195
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -9.5,
+          "y": -16.5,
+          "machine": "chemical-plant",
+          "recipe": "light-oil-cracking",
+          "crafts": 599,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "water": 120,
+            "light-oil": 120
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -1.5,
+          "y": -16.5,
+          "machine": "chemical-plant",
+          "recipe": "light-oil-cracking",
+          "crafts": 599,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "water": 120,
+            "light-oil": 120
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 3.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 80,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 9.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 16.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 84,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 23.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 39,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 3.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 80,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 9.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 16.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 81,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 23.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 39,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 3.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 80,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 9.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 16.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 82,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 23.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 39,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 9.5,
+          "y": -16.5,
+          "machine": "chemical-plant",
+          "recipe": "sulfur",
+          "crafts": 768,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "water": 120,
+            "petroleum-gas": 120
+          },
+          "outputInventory": [
+            {
+              "name": "sulfur",
+              "quality": "normal",
+              "count": 47
+            }
+          ]
+        },
+        {
+          "x": 16.5,
+          "y": -7.5,
+          "machine": "chemical-plant",
+          "recipe": "sulfuric-acid",
+          "crafts": 281,
+          "status": "full_output",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "water": 400,
+            "sulfuric-acid": 150
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 3.5,
+          "y": 9.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 3.5,
+          "y": 16.5,
+          "machine": "assembling-machine-2",
+          "recipe": "iron-gear-wheel",
+          "crafts": 398,
+          "status": "full_output",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "iron-gear-wheel",
+              "quality": "normal",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "x": 3.5,
+          "y": 23.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 8.5,
+          "y": 2.5,
+          "machine": "chemical-plant",
+          "recipe": "battery",
+          "crafts": 295,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "sulfuric-acid": 80
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 10.5,
+          "y": 16.5,
+          "machine": "assembling-machine-2",
+          "recipe": "pipe",
+          "crafts": 687,
+          "status": "full_output",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "pipe",
+              "quality": "normal",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "x": 10.5,
+          "y": 23.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 2.5,
+          "machine": "chemical-plant",
+          "recipe": "battery",
+          "crafts": 295,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {
+            "sulfuric-acid": 80
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 16.5,
+          "machine": "assembling-machine-2",
+          "recipe": "logistic-robot",
+          "crafts": 230,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 23.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 2,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        }
+      ],
+      "powerFixtures": [
+        {
+          "y": -24,
+          "x": -19
+        }
+      ]
+    }
+  },
+  "testNotes": [
+    "Original Factorio save files were not used. The test ran in an isolated lab surface with only the base mod.",
+    "Each run stocked only designated raw-material chests and fluid inlet pipes, provided electricity to the blueprint power network, and took finished logistic robots from the output request chest.",
+    "No train delivery or station-to-core bridging was part of the production throughput runs.",
+    "The base recipe availability and stated logistics robot technologies were enabled. No productivity modules or crafting productivity boosts were used."
+  ],
+  "rail": {
+    "blueprintSha256": "73fffd04f21bbf6989ec40d196f6e4264d5563dc8833a24a7fd1372e4e1116b7",
+    "importAndPlacement": {
+      "pass": true,
+      "stage": "blueprint-build",
+      "counts": {
+        "expected": 478,
+        "built": 478,
+        "tileExpected": 0,
+        "tileBuilt": 0,
+        "remaining": {}
+      },
+      "prototypes": {
+        "straight-rail": 268,
+        "rail-chain-signal": 8,
+        "curved-rail-a": 20,
+        "curved-rail-b": 18,
+        "half-diagonal-rail": 112,
+        "rail-signal": 13,
+        "fast-inserter": 6,
+        "passive-provider-chest": 5,
+        "pump": 3,
+        "pipe": 3,
+        "medium-electric-pole": 5,
+        "requester-chest": 1,
+        "storage-tank": 3,
+        "roboport": 1,
+        "big-electric-pole": 5,
+        "train-stop": 7
+      },
+      "stations": [
+        {
+          "name": "R12 | H1 | WAIT A",
+          "x": 9,
+          "y": -21,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | H2 | WAIT B",
+          "x": 9,
+          "y": -13,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F1 | IN Heavy oil",
+          "x": 9,
+          "y": -5,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F2 | IN Light oil",
+          "x": 9,
+          "y": 5,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F3 | IN Petroleum gas",
+          "x": 9,
+          "y": 15,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | S1 | IN Metals + Circuits",
+          "x": 9,
+          "y": 25,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | O1 | OUT Logistic robot",
+          "x": 9,
+          "y": 35,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        }
+      ],
+      "coordinateOffset": {
+        "x": 0,
+        "y": -32
+      },
+      "mods": {
+        "base": "2.1.25"
+      }
+    },
+    "transport": {
+      "checkedStops": 7,
+      "checkedTransportTasks": 5,
+      "wagonFormation": "1 locomotive + 1 wagon",
+      "unloadedSolidItems": {
+        "iron-plate": 15,
+        "copper-plate": 15,
+        "electronic-circuit": 15,
+        "advanced-circuit": 15
+      },
+      "unloadedFluids": {
+        "heavy-oil": 1000,
+        "light-oil": 1000,
+        "petroleum-gas": 1000
+      },
+      "loadedLogisticRobots": 35,
+      "scope": "Native 1+1 train arrival and unloading each input or loading the output, with measured stock in the real receiving chest/wagon or independent pipe and tank."
+    },
+    "waitingBypass": {
+      "pass": true,
+      "bothDirectionalBypassRoutesReached": true,
+      "bothWaitingTracksOccupied": true
+    }
+  },
+  "integration": {
+    "blueprintSha256": "eeb0da26c64cd354b6041abafa61ab553eaad7946a460fe284b7172599e66dd3",
+    "scope": "Real connected station logistics boxes and independent fluid buffers to the real output station request chest. Supply and collection were scripted only at those external ports.",
+    "petroleumGas": {
+      "pass": true,
+      "stage": "production-throughput",
+      "counts": {
+        "expected": 857,
+        "built": 857,
+        "tileExpected": 0,
+        "tileBuilt": 0,
+        "remaining": {}
+      },
+      "prototypes": {
+        "straight-rail": 268,
+        "rail-chain-signal": 8,
+        "curved-rail-a": 20,
+        "curved-rail-b": 18,
+        "half-diagonal-rail": 112,
+        "rail-signal": 13,
+        "fast-inserter": 50,
+        "passive-provider-chest": 31,
+        "pump": 3,
+        "pipe": 210,
+        "medium-electric-pole": 5,
+        "requester-chest": 23,
+        "storage-tank": 3,
+        "roboport": 3,
+        "big-electric-pole": 5,
+        "train-stop": 7,
+        "chemical-plant": 7,
+        "assembling-machine-2": 15,
+        "electric-furnace": 4,
+        "pipe-to-ground": 36,
+        "substation": 16
+      },
+      "coordinateOffset": {
+        "x": 0,
+        "y": -58
+      },
+      "mods": {
+        "base": "2.1.25"
+      },
+      "targets": {
+        "robotsPerMinute": 12
+      },
+      "stations": [
+        {
+          "name": "R12 | H1 | WAIT A",
+          "x": 9,
+          "y": -47,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | H2 | WAIT B",
+          "x": 9,
+          "y": -39,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F1 | IN Heavy oil",
+          "x": 9,
+          "y": -31,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F2 | IN Light oil",
+          "x": 9,
+          "y": -21,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F3 | IN Petroleum gas",
+          "x": 9,
+          "y": -11,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | S1 | IN Metals + Circuits",
+          "x": 9,
+          "y": -1,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | O1 | OUT Logistic robot",
+          "x": 9,
+          "y": 9,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        }
+      ],
+      "scope": "Production from Blueprint chests and pipe ports into outgoing chest",
+      "warmupGameMinutes": 10,
+      "measureGameMinutes": 10,
+      "totalOutput": 132,
+      "outputPerMinute": 13.2,
+      "oneMinuteCounts": [
+        15,
+        11,
+        14,
+        14,
+        12,
+        15,
+        12,
+        14,
+        13,
+        12
+      ],
+      "bots": 300,
+      "research": [
+        "worker-robots-speed-1",
+        "worker-robots-speed-2",
+        "worker-robots-storage-1",
+        "worker-robots-storage-2"
+      ],
+      "firstOutputGameSeconds": 120,
+      "consumedSinceStart": {
+        "iron-plate": 5331,
+        "copper-plate": 594,
+        "electronic-circuit": 1182,
+        "advanced-circuit": 452,
+        "water": 51330,
+        "heavy-oil": 7790,
+        "petroleum-gas": 23130
+      },
+      "machines": [
+        {
+          "x": -19.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "lubricant",
+          "crafts": 778,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "heavy-oil": 40,
+            "lubricant": 200
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -9.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "light-oil-cracking",
+          "crafts": 0,
+          "status": "fluid_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 120
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -1.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "light-oil-cracking",
+          "crafts": 0,
+          "status": "fluid_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 120
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 45.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 79,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 82,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 45.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 79,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 82,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 45.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 79,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 82,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 9.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "sulfur",
+          "crafts": 770,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 120,
+            "petroleum-gas": 120
+          },
+          "outputInventory": [
+            {
+              "name": "sulfur",
+              "quality": "normal",
+              "count": 50
+            }
+          ]
+        },
+        {
+          "x": 3.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 3.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "iron-gear-wheel",
+          "crafts": 395,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "iron-gear-wheel",
+              "quality": "normal",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "x": 8.5,
+          "y": 44.5,
+          "machine": "chemical-plant",
+          "recipe": "battery",
+          "crafts": 296,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "sulfuric-acid": 80
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 10.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "pipe",
+          "crafts": 685,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "pipe",
+              "quality": "normal",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "x": 16.5,
+          "y": 34.5,
+          "machine": "chemical-plant",
+          "recipe": "sulfuric-acid",
+          "crafts": 282,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 400,
+            "sulfuric-acid": 160
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 44.5,
+          "machine": "chemical-plant",
+          "recipe": "battery",
+          "crafts": 296,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "sulfuric-acid": 80
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "logistic-robot",
+          "crafts": 226,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 3.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 10.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        }
+      ],
+      "powerFixtures": [
+        {
+          "y": 18,
+          "x": -19
+        }
+      ]
+    },
+    "lightOil": {
+      "pass": true,
+      "stage": "production-throughput",
+      "counts": {
+        "expected": 857,
+        "built": 857,
+        "tileExpected": 0,
+        "tileBuilt": 0,
+        "remaining": {}
+      },
+      "prototypes": {
+        "straight-rail": 268,
+        "rail-chain-signal": 8,
+        "curved-rail-a": 20,
+        "curved-rail-b": 18,
+        "half-diagonal-rail": 112,
+        "rail-signal": 13,
+        "fast-inserter": 50,
+        "passive-provider-chest": 31,
+        "pump": 3,
+        "pipe": 210,
+        "medium-electric-pole": 5,
+        "requester-chest": 23,
+        "storage-tank": 3,
+        "roboport": 3,
+        "big-electric-pole": 5,
+        "train-stop": 7,
+        "chemical-plant": 7,
+        "assembling-machine-2": 15,
+        "electric-furnace": 4,
+        "pipe-to-ground": 36,
+        "substation": 16
+      },
+      "coordinateOffset": {
+        "x": 0,
+        "y": -58
+      },
+      "mods": {
+        "base": "2.1.25"
+      },
+      "targets": {
+        "robotsPerMinute": 12
+      },
+      "stations": [
+        {
+          "name": "R12 | H1 | WAIT A",
+          "x": 9,
+          "y": -47,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | H2 | WAIT B",
+          "x": 9,
+          "y": -39,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F1 | IN Heavy oil",
+          "x": 9,
+          "y": -31,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F2 | IN Light oil",
+          "x": 9,
+          "y": -21,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F3 | IN Petroleum gas",
+          "x": 9,
+          "y": -11,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | S1 | IN Metals + Circuits",
+          "x": 9,
+          "y": -1,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | O1 | OUT Logistic robot",
+          "x": 9,
+          "y": 9,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        }
+      ],
+      "scope": "Production from Blueprint chests and pipe ports into outgoing chest",
+      "warmupGameMinutes": 10,
+      "measureGameMinutes": 10,
+      "totalOutput": 132,
+      "outputPerMinute": 13.2,
+      "oneMinuteCounts": [
+        12,
+        13,
+        12,
+        15,
+        13,
+        13,
+        15,
+        13,
+        14,
+        12
+      ],
+      "bots": 300,
+      "research": [
+        "worker-robots-speed-1",
+        "worker-robots-speed-2",
+        "worker-robots-storage-1",
+        "worker-robots-storage-2"
+      ],
+      "firstOutputGameSeconds": 118,
+      "consumedSinceStart": {
+        "iron-plate": 5341,
+        "copper-plate": 592,
+        "electronic-circuit": 1199,
+        "advanced-circuit": 462,
+        "water": 87140,
+        "heavy-oil": 7830,
+        "light-oil": 36000
+      },
+      "machines": [
+        {
+          "x": -19.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "lubricant",
+          "crafts": 782,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "heavy-oil": 40,
+            "lubricant": 190.75018882751465
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -9.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "light-oil-cracking",
+          "crafts": 599,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 120,
+            "light-oil": 120
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -1.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "light-oil-cracking",
+          "crafts": 599,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 120,
+            "light-oil": 120
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 45.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 81,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 82,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 45.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 80,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 82,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 45.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 80,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 83,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 39,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 39,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 9.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "sulfur",
+          "crafts": 767,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 120,
+            "petroleum-gas": 120
+          },
+          "outputInventory": [
+            {
+              "name": "sulfur",
+              "quality": "normal",
+              "count": 49
+            }
+          ]
+        },
+        {
+          "x": 3.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 148,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 3.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "iron-gear-wheel",
+          "crafts": 398,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "iron-gear-wheel",
+              "quality": "normal",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "x": 8.5,
+          "y": 44.5,
+          "machine": "chemical-plant",
+          "recipe": "battery",
+          "crafts": 295,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "sulfuric-acid": 80
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 10.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "pipe",
+          "crafts": 690,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "pipe",
+              "quality": "normal",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "x": 16.5,
+          "y": 34.5,
+          "machine": "chemical-plant",
+          "recipe": "sulfuric-acid",
+          "crafts": 281,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 400,
+            "sulfuric-acid": 150
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 44.5,
+          "machine": "chemical-plant",
+          "recipe": "battery",
+          "crafts": 295,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "sulfuric-acid": 80
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "logistic-robot",
+          "crafts": 231,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 3.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 39,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 10.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 38,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        }
+      ],
+      "powerFixtures": [
+        {
+          "y": 18,
+          "x": -19
+        }
+      ]
+    }
+  },
+  "trainToTrain": {
+    "scope": "Actual 1+1 trains delivered solids and oils. Electricity, water, 300 robots, and a rail approach segment were supplied by the isolated fixture. Items were counted after a real station inserter loaded the outgoing wagon. Arrivals were staged; this does not validate a city-wide schedule.",
+    "petroleumGas": {
+      "pass": true,
+      "stage": "production-throughput",
+      "counts": {
+        "expected": 857,
+        "built": 857,
+        "tileExpected": 0,
+        "tileBuilt": 0,
+        "remaining": {}
+      },
+      "prototypes": {
+        "straight-rail": 268,
+        "rail-chain-signal": 8,
+        "curved-rail-a": 20,
+        "curved-rail-b": 18,
+        "half-diagonal-rail": 112,
+        "rail-signal": 13,
+        "fast-inserter": 50,
+        "passive-provider-chest": 31,
+        "pump": 3,
+        "pipe": 210,
+        "medium-electric-pole": 5,
+        "requester-chest": 23,
+        "storage-tank": 3,
+        "roboport": 3,
+        "big-electric-pole": 5,
+        "train-stop": 7,
+        "chemical-plant": 7,
+        "assembling-machine-2": 15,
+        "electric-furnace": 4,
+        "pipe-to-ground": 36,
+        "substation": 16
+      },
+      "coordinateOffset": {
+        "x": 0,
+        "y": -58
+      },
+      "mods": {
+        "base": "2.1.25"
+      },
+      "targets": {
+        "robotsPerMinute": 12
+      },
+      "stations": [
+        {
+          "name": "R12 | H1 | WAIT A",
+          "x": 9,
+          "y": -47,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | H2 | WAIT B",
+          "x": 9,
+          "y": -39,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F1 | IN Heavy oil",
+          "x": 9,
+          "y": -31,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F2 | IN Light oil",
+          "x": 9,
+          "y": -21,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F3 | IN Petroleum gas",
+          "x": 9,
+          "y": -11,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | S1 | IN Metals + Circuits",
+          "x": 9,
+          "y": -1,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | O1 | OUT Logistic robot",
+          "x": 9,
+          "y": 9,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        }
+      ],
+      "scope": "Input unloading from wagons, physical integrated factory, output loading into wagon",
+      "deliveries": [
+        {
+          "station": "S1",
+          "completedTick": 32760,
+          "items": {
+            "iron-plate": 2700,
+            "copper-plate": 700,
+            "electronic-circuit": 600,
+            "advanced-circuit": 300
+          },
+          "operation": "unloading"
+        },
+        {
+          "station": "S1",
+          "completedTick": 72720,
+          "items": {
+            "iron-plate": 3300,
+            "electronic-circuit": 800,
+            "advanced-circuit": 400
+          },
+          "operation": "unloading"
+        },
+        {
+          "station": "F1",
+          "completedTick": 73860,
+          "fluid": "heavy-oil",
+          "amount": 14000,
+          "operation": "unloading"
+        },
+        {
+          "station": "F3",
+          "completedTick": 75960,
+          "fluid": "petroleum-gas",
+          "amount": 33000,
+          "operation": "unloading"
+        },
+        {
+          "station": "O1",
+          "arrivedTick": 76380,
+          "operation": "loading"
+        },
+        {
+          "station": "S1",
+          "completedTick": 120000,
+          "items": {
+            "iron-plate": 3600,
+            "copper-plate": 300
+          },
+          "operation": "unloading during production"
+        }
+      ],
+      "warmupGameMinutes": 10,
+      "measureGameMinutes": 10,
+      "totalOutput": 134,
+      "outputPerMinute": 13.4,
+      "oneMinuteCounts": [
+        13,
+        13,
+        14,
+        12,
+        15,
+        13,
+        13,
+        13,
+        14,
+        14
+      ],
+      "bots": 300,
+      "research": [
+        "worker-robots-speed-1",
+        "worker-robots-speed-2",
+        "worker-robots-storage-1",
+        "worker-robots-storage-2"
+      ],
+      "firstOutputGameSeconds": 41,
+      "consumedSinceStart": {
+        "iron-plate": 8932,
+        "copper-plate": 612,
+        "electronic-circuit": 1368,
+        "advanced-circuit": 522,
+        "water": 52540,
+        "heavy-oil": 8370,
+        "petroleum-gas": 23640
+      },
+      "machines": [
+        {
+          "x": -19.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "lubricant",
+          "crafts": 836,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "heavy-oil": 40,
+            "lubricant": 195
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -9.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "light-oil-cracking",
+          "crafts": 0,
+          "status": "fluid_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 120
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -1.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "light-oil-cracking",
+          "crafts": 0,
+          "status": "fluid_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 120
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 45.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 93,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 305,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 157,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 45.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 93,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 305,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 156,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 45.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 93,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 288,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "steel-plate",
+              "quality": "normal",
+              "count": 98
+            }
+          ]
+        },
+        {
+          "x": -3.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 64,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "engine-unit",
+              "quality": "normal",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "x": -17.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 44,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 43,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 44,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 9.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "sulfur",
+          "crafts": 787,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 120,
+            "petroleum-gas": 120
+          },
+          "outputInventory": [
+            {
+              "name": "sulfur",
+              "quality": "normal",
+              "count": 48
+            }
+          ]
+        },
+        {
+          "x": 3.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 305,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "steel-plate",
+              "quality": "normal",
+              "count": 76
+            }
+          ]
+        },
+        {
+          "x": 3.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "iron-gear-wheel",
+          "crafts": 525,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "iron-gear-wheel",
+              "quality": "normal",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "x": 8.5,
+          "y": 44.5,
+          "machine": "chemical-plant",
+          "recipe": "battery",
+          "crafts": 305,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "sulfuric-acid": 80
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 10.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "pipe",
+          "crafts": 944,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "pipe",
+              "quality": "normal",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "x": 16.5,
+          "y": 34.5,
+          "machine": "chemical-plant",
+          "recipe": "sulfuric-acid",
+          "crafts": 289,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 400,
+            "sulfuric-acid": 150
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 44.5,
+          "machine": "chemical-plant",
+          "recipe": "battery",
+          "crafts": 305,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "sulfuric-acid": 80
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "logistic-robot",
+          "crafts": 261,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 3.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 45,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 10.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 44,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 44,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        }
+      ],
+      "powerFixtures": [
+        {
+          "y": 18,
+          "x": -19
+        }
+      ]
+    },
+    "lightOil": {
+      "pass": true,
+      "stage": "production-throughput",
+      "counts": {
+        "expected": 857,
+        "built": 857,
+        "tileExpected": 0,
+        "tileBuilt": 0,
+        "remaining": {}
+      },
+      "prototypes": {
+        "straight-rail": 268,
+        "rail-chain-signal": 8,
+        "curved-rail-a": 20,
+        "curved-rail-b": 18,
+        "half-diagonal-rail": 112,
+        "rail-signal": 13,
+        "fast-inserter": 50,
+        "passive-provider-chest": 31,
+        "pump": 3,
+        "pipe": 210,
+        "medium-electric-pole": 5,
+        "requester-chest": 23,
+        "storage-tank": 3,
+        "roboport": 3,
+        "big-electric-pole": 5,
+        "train-stop": 7,
+        "chemical-plant": 7,
+        "assembling-machine-2": 15,
+        "electric-furnace": 4,
+        "pipe-to-ground": 36,
+        "substation": 16
+      },
+      "coordinateOffset": {
+        "x": 0,
+        "y": -58
+      },
+      "mods": {
+        "base": "2.1.25"
+      },
+      "targets": {
+        "robotsPerMinute": 12
+      },
+      "stations": [
+        {
+          "name": "R12 | H1 | WAIT A",
+          "x": 9,
+          "y": -47,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | H2 | WAIT B",
+          "x": 9,
+          "y": -39,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F1 | IN Heavy oil",
+          "x": 9,
+          "y": -31,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F2 | IN Light oil",
+          "x": 9,
+          "y": -21,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | F3 | IN Petroleum gas",
+          "x": 9,
+          "y": -11,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | S1 | IN Metals + Circuits",
+          "x": 9,
+          "y": -1,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        },
+        {
+          "name": "R12 | O1 | OUT Logistic robot",
+          "x": 9,
+          "y": 9,
+          "trainsLimit": 1,
+          "hasConnectedRail": true
+        }
+      ],
+      "scope": "Input unloading from wagons, physical integrated factory, output loading into wagon",
+      "deliveries": [
+        {
+          "station": "S1",
+          "completedTick": 32760,
+          "items": {
+            "iron-plate": 2700,
+            "copper-plate": 700,
+            "electronic-circuit": 600,
+            "advanced-circuit": 300
+          },
+          "operation": "unloading"
+        },
+        {
+          "station": "S1",
+          "completedTick": 72720,
+          "items": {
+            "iron-plate": 3300,
+            "electronic-circuit": 800,
+            "advanced-circuit": 400
+          },
+          "operation": "unloading"
+        },
+        {
+          "station": "F1",
+          "completedTick": 73860,
+          "fluid": "heavy-oil",
+          "amount": 14000,
+          "operation": "unloading"
+        },
+        {
+          "station": "F2",
+          "completedTick": 83880,
+          "fluid": "light-oil",
+          "amount": 34000,
+          "operation": "unloading"
+        },
+        {
+          "station": "O1",
+          "arrivedTick": 84300,
+          "operation": "loading"
+        },
+        {
+          "station": "S1",
+          "completedTick": 127920,
+          "items": {
+            "iron-plate": 3600,
+            "copper-plate": 300
+          },
+          "operation": "unloading during production"
+        }
+      ],
+      "warmupGameMinutes": 10,
+      "measureGameMinutes": 10,
+      "totalOutput": 127,
+      "outputPerMinute": 12.7,
+      "oneMinuteCounts": [
+        11,
+        14,
+        15,
+        13,
+        14,
+        12,
+        15,
+        13,
+        14,
+        6
+      ],
+      "bots": 300,
+      "research": [
+        "worker-robots-speed-1",
+        "worker-robots-speed-2",
+        "worker-robots-storage-1",
+        "worker-robots-storage-2"
+      ],
+      "firstOutputGameSeconds": 1,
+      "consumedSinceStart": {
+        "iron-plate": 9338,
+        "copper-plate": 674,
+        "electronic-circuit": 1400,
+        "advanced-circuit": 560,
+        "water": 86680,
+        "heavy-oil": 8390,
+        "light-oil": 33960
+      },
+      "machines": [
+        {
+          "x": -19.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "lubricant",
+          "crafts": 838,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "heavy-oil": 40,
+            "lubricant": 200
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -9.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "light-oil-cracking",
+          "crafts": 566,
+          "status": "fluid_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 120,
+            "light-oil": 20.062848269939423
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -1.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "light-oil-cracking",
+          "crafts": 566,
+          "status": "fluid_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 120,
+            "light-oil": 19.937151730060577
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 45.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 94,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 321,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -17.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 167,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 45.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 93,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 321,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 166,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 45.5,
+          "machine": "assembling-machine-2",
+          "recipe": "electric-engine-unit",
+          "crafts": 93,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "lubricant": 60
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 290,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "steel-plate",
+              "quality": "normal",
+              "count": 100
+            }
+          ]
+        },
+        {
+          "x": -3.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "engine-unit",
+          "crafts": 64,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "engine-unit",
+              "quality": "normal",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "x": -17.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 47,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -10.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 47,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": -3.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 47,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 9.5,
+          "y": 25.5,
+          "machine": "chemical-plant",
+          "recipe": "sulfur",
+          "crafts": 754,
+          "status": "fluid_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 120,
+            "petroleum-gas": 20
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 3.5,
+          "y": 51.5,
+          "machine": "electric-furnace",
+          "recipe": "steel-plate",
+          "crafts": 321,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "steel-plate",
+              "quality": "normal",
+              "count": 86
+            }
+          ]
+        },
+        {
+          "x": 3.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "iron-gear-wheel",
+          "crafts": 546,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "iron-gear-wheel",
+              "quality": "normal",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "x": 8.5,
+          "y": 44.5,
+          "machine": "chemical-plant",
+          "recipe": "battery",
+          "crafts": 336,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "sulfuric-acid": 80
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 10.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "pipe",
+          "crafts": 986,
+          "status": "full_output",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": [
+            {
+              "name": "pipe",
+              "quality": "normal",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "x": 16.5,
+          "y": 34.5,
+          "machine": "chemical-plant",
+          "recipe": "sulfuric-acid",
+          "crafts": 301,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "water": 400
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 44.5,
+          "machine": "chemical-plant",
+          "recipe": "battery",
+          "crafts": 336,
+          "status": "working",
+          "electricNetwork": 3,
+          "fluidBoxes": {
+            "sulfuric-acid": 80
+          },
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 58.5,
+          "machine": "assembling-machine-2",
+          "recipe": "logistic-robot",
+          "crafts": 280,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 3.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 47,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 10.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 46,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        },
+        {
+          "x": 17.5,
+          "y": 65.5,
+          "machine": "assembling-machine-2",
+          "recipe": "flying-robot-frame",
+          "crafts": 46,
+          "status": "item_ingredient_shortage",
+          "electricNetwork": 3,
+          "fluidBoxes": {},
+          "outputInventory": {}
+        }
+      ],
+      "powerFixtures": [
+        {
+          "y": 18,
+          "x": -19
+        }
+      ]
+    }
+  }
+}
